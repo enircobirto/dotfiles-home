@@ -1,95 +1,141 @@
-palette = "catpuccin_mocha"
-
 format = """
-[░▒▓](#a3aed2)\
-[  ](bg:#a3aed2 fg:#090c0c)\
-[](bg:#6078a6 fg:#a3aed2)\
-${custom.directory}\
-[](fg:#6078a6 bg:#394260)\
-$git_branch\
-$git_status\
-[](fg:#394260 bg:#212736)\
-$nodejs\
-$rust\
-$golang\
-$php\
-[](fg:#212736 bg:#1d2230)\
-$time\
-[ ](fg:#1d2230)\
+[](#D32F54)\
+$username\
+[](bg:#28842F fg:#E34B6D)\
+  ${custom.pwd}\
+[](fg:#4BA251 bg:#dc844a)\
+  $git_branch\
+  $git_status\
+[](fg:#E5A072 bg:#A52dC7)\
+  $c\
+  $elixir\
+  $elm\
+  $golang\
+  $haskell\
+  $java\
+  $julia\
+  $nodejs\
+  $nim\
+  $rust\
+  $scala\
+[ ](fg:#9018b3)
 """
+#bg:#9018b3)\
+#"""
+#  $time\
+#[ ](fg:#A52DC7)\
+#"""
 
-[custom.directory]
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+# You can also replace your username with a neat symbol like  to save some space
+[username]
+show_always = true
+style_user = "bg:#D32F54"
+style_root = "bg:#D32F54"
+format = '[$user ]($style)'
+
+[custom.pwd]
+#command = "set _pwd (pwd); if test $_pwd = '/home/enirq'; echo '~/'; else if pwd | grep -q 'enirq'; prompt_pwd; else; pwd; end;"
 command = "echo $(prompt_pwd)"
+#command = "pwd"
 when = true
 symbol = " @ "
-style = "bold fg:#e3e5e5 bg:#6078a6"
+style = "bg:#28842F"
 format = "[$symbol($output) ]($style)"
 
+[custom.mode]
+command = "fish_mode_prompt"
+when = true
+style = "bg:#28842F"
+format = "$output($style)"
+
+[directory]
+style = "bg:#28842F"
+format = "${custom.pwd}"
+truncation_length = 3
+truncation_symbol = "…/"
+
+# Here is how you can shorten some long paths by text replacement
+# similar to mapped_locations in Oh My Posh:
 [directory.substitutions]
-"Documents" = "󰈙 "
+"Documents" = " "
 "Downloads" = " "
 "Music" = " "
 "Pictures" = " "
+# Keep in mind that the order matters. For example:
+# "Important Documents" = "  "
+# will not be replaced, because "Documents" was already substituted before.
+# So either put "Important Documents" before "Documents" or use the substituted version:
+# "Important  " = "  "
+
+[c]
+symbol = " "
+style = "bg:#A52dC7"
+format = '[ $symbol ($version) ]($style)'
+
+[elixir]
+symbol = " "
+style = "bg:#A52dC7"
+format = '[ $symbol ($version) ]($style)'
+
+[elm]
+symbol = " "
+style = "bg:#A52dC7"
+format = '[ $symbol ($version) ]($style)'
 
 [git_branch]
-symbol = ""
-style = "bg:#394260"
-format = '[[ $symbol $branch ](fg:#769ff0 bg:#394260)]($style)'
+symbol = ""
+  style = "bg:#dc844a"
+format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#394260"
-format = '[[($all_status$ahead_behind )](fg:#769ff0 bg:#394260)]($style)'
+style = "bg:#dc844a"
+format = '[$all_status$ahead_behind ]($style)'
+
+[golang]
+symbol = " "
+style = "bg:#A52dC7"
+format = '[ $symbol ($version) ]($style)'
+
+[haskell]
+symbol = " "
+style = "bg:#A52dC7"
+format = '[ $symbol ($version) ]($style)'
+
+[java]
+symbol = " "
+style = "bg:#A52dC7"
+format = '[ $symbol ($version) ]($style)'
+
+[julia]
+symbol = " "
+style = "bg:#A52dC7"
+format = '[ $symbol ($version) ]($style)'
 
 [nodejs]
 symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+style = "bg:#A52dC7"
+format = '[ $symbol ($version) ]($style)'
+
+[nim]
+symbol = " "
+style = "bg:#A52dC7"
+format = '[ $symbol ($version) ]($style)'
 
 [rust]
 symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+style = "bg:#A52dC7"
+format = '[ $symbol ($version) ]($style)'
 
-[golang]
-symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
-
-[php]
-symbol = ""
-style = "bg:#212736"
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+[scala]
+symbol = " "
+style = "bg:#A52dC7"
+format = '[ $symbol ($version) ]($style)'
 
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
-style = "bg:#1d2230"
-format = '[[󰥔 $time ](fg:#a0a9cb bg:#1d2230)]($style)'
-
-[palettes.catppuccin_mocha]
-rosewater = "#f5e0dc"
-flamingo = "#f2cdcd"
-pink = "#f5c2e7"
-mauve = "#cba6f7"
-red = "#f38ba8"
-maroon = "#eba0ac"
-peach = "#fab387"
-yellow = "#f9e2af"
-green = "#a6e3a1"
-teal = "#94e2d5"
-sky = "#89dceb"
-sapphire = "#74c7ec"
-blue = "#89b4fa"
-lavender = "#b4befe"
-text = "#cdd6f4"
-subtext1 = "#bac2de"
-subtext0 = "#a6adc8"
-overlay2 = "#9399b2"
-overlay1 = "#7f849c"
-overlay0 = "#6c7086"
-surface2 = "#585b70"
-surface1 = "#45475a"
-surface0 = "#313244"
-base = "#1e1e2e"
-mantle = "#181825"
-crust = "#11111b"
+style = "bg:#9018b3"
+format = '[  $time ]($style)'

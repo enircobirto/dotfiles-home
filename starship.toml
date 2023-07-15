@@ -18,7 +18,10 @@ $python\
 $time\
 [▓▒░ ](fg:blue)
 [░▒▓](base)\
-[ 󰥭 ](bg:base fg:pink) """
+[ 󰥭 ](bg:base fg:pink)\
+[▓▒░ ](fg:base)"""
+
+add_newline = false
 
 [custom.directory]
 command = "echo $(prompt_pwd)"

@@ -17,9 +17,8 @@ $python\
 [▓▒░](fg:green bg:blue)\
 $time\
 [▓▒░ ](fg:blue)
-[░▒▓](surface1)\
-[  ](bg:surface1 fg:pink)\
-[▓▒░](fg:surface1) """
+[░▒▓](base)\
+[ 󰥭 ](bg:base fg:pink) """
 
 [custom.directory]
 command = "echo $(prompt_pwd)"

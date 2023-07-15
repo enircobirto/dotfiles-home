@@ -1,0 +1,179 @@
+[ActionsWidget]
+ColumnState=AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAboAAAACAQAAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAACAAAA+gAAAAEAAAAAAAAAwAAAAAEAAAAAAAAD6AAAAABk
+
+[ConfigDialog]
+eDP Height 1920x1080=508
+eDP Width 1920x1080=595
+
+[General]
+Number of Actions=0
+
+[KFileDialog Settings]
+Recent Files[$e]=54904f15-42ca-4af5-a1d6-0774d9d6c68c.jpeg,file:$HOME/wp/istockphoto-1328125015-170667a.jpg,file:$HOME/wp/312938489_5554866784629355_5700975380495998485_n.jpg,file:$HOME/wp/151050780_3719108238205228_8290094316549696554_n.jpg,file:$HOME/wp/220057973_4171303869652327_4340991028425549759_n.jpg,file:$HOME/wp/153289425_3736467723135946_6893005451456715530_n.jpg,file:$HOME/wp/150972335_3719097648206287_8334940711258229151_n.jpg,file:$HOME/wp/309437033_5476504745798893_6929181410685742834_n.jpg,file:$HOME/Downloads/1465612.png,file:$HOME/wp/151076683_3719075768208475_8423083127213275646_n.jpg,file:$HOME/wp/138298151_3626969840752402_1805173385746664931_n.jpg,file:$HOME/wp/120626521_3356047501177972_1071437046682815401_n.png,file:$HOME/wp/118770571_3261609833955073_6129823263160253214_n.jpg,file:$HOME/wp/118768089_3261602317289158_2301964409298777921_n.jpg,file:$HOME/wp/118764499_3261609840621739_7374730203029859199_n.jpg,file:$HOME/wp/118763816_3261694893946567_6223507096400210536_n.png
+Recent URLs[$e]=file:$HOME/,file:$HOME/apps/,file:$HOME/wp/,file:$HOME/Downloads/,file:$HOME/Pictures/,recentlyused:/files/,file:$HOME/Documents/
+detailViewIconSize=42
+
+[KPropertiesDialog]
+eDP Height 1920x1080=458
+eDP Width 1920x1080=426
+
+[PlasmaTransientsConfig]
+PreloadWeight=0
+
+[PlasmaViews][Panel 101][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 101][Vertical1080]
+thickness=44
+
+[PlasmaViews][Panel 102][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 102][Horizontal1920]
+thickness=44
+
+[PlasmaViews][Panel 144]
+alignment=2
+floating=0
+panelOpacity=2
+panelVisibility=2
+
+[PlasmaViews][Panel 144][Defaults]
+maxLength=465
+minLength=50
+offset=0
+thickness=32
+
+[PlasmaViews][Panel 144][Horizontal1920]
+maxLength=1802
+minLength=50
+thickness=32
+
+[PlasmaViews][Panel 144][Vertical1080]
+maxLength=465
+minLength=50
+offset=0
+thickness=32
+
+[PlasmaViews][Panel 150]
+alignment=1
+floating=0
+panelVisibility=2
+
+[PlasmaViews][Panel 150][Defaults]
+minLength=210
+thickness=20
+
+[PlasmaViews][Panel 150][Horizontal1920]
+minLength=210
+thickness=20
+
+[PlasmaViews][Panel 167]
+floating=1
+panelVisibility=2
+
+[PlasmaViews][Panel 167][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 167][Horizontal1920]
+thickness=20
+
+[PlasmaViews][Panel 167][Vertical1080]
+thickness=36
+
+[PlasmaViews][Panel 170][Defaults]
+thickness=27
+
+[PlasmaViews][Panel 170][Horizontal1920]
+thickness=27
+
+[PlasmaViews][Panel 189]
+alignment=2
+floating=1
+panelVisibility=2
+
+[PlasmaViews][Panel 189][Defaults]
+minLength=225
+thickness=46
+
+[PlasmaViews][Panel 189][Horizontal1920]
+minLength=225
+thickness=46
+
+[PlasmaViews][Panel 192]
+panelVisibility=2
+
+[PlasmaViews][Panel 192][Defaults]
+thickness=0
+
+[PlasmaViews][Panel 192][Horizontal1920]
+thickness=0
+
+[PlasmaViews][Panel 2]
+alignment=132
+panelOpacity=2
+
+[PlasmaViews][Panel 2][Defaults]
+maxLength=1920
+minLength=1920
+thickness=44
+
+[PlasmaViews][Panel 2][Horizontal1920]
+maxLength=1920
+minLength=1920
+thickness=44
+
+[PlasmaViews][Panel 55]
+alignment=132
+floating=0
+panelOpacity=2
+panelVisibility=0
+
+[PlasmaViews][Panel 55][Defaults]
+maxLength=1920
+minLength=1920
+offset=0
+thickness=20
+
+[PlasmaViews][Panel 55][Horizontal1920]
+maxLength=1920
+minLength=1920
+offset=0
+thickness=20
+
+[PlasmaViews][Panel 59]
+alignment=132
+
+[PlasmaViews][Panel 59][Defaults]
+thickness=44
+
+[PlasmaViews][Panel 59][Horizontal1920]
+thickness=44
+
+[PlasmaViews][Panel 91][Defaults]
+thickness=20
+
+[PlasmaViews][Panel 91][Horizontal1920]
+thickness=20
+
+[PlasmaViews][Panel 97][Defaults]
+thickness=27
+
+[PlasmaViews][Panel 97][Horizontal1920]
+thickness=27
+
+[PlasmaViews][Panel 99][Defaults]
+thickness=27
+
+[PlasmaViews][Panel 99][Horizontal1920]
+thickness=27
+
+[PlasmaViews][Panel 99][Vertical1080]
+thickness=36
+
+[ScreenConnectors]
+0=eDP
+1=HDMI-A-0
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/no_middle_click_paste_on_panels.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/klipper_clear_config.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/digitalclock_rename_timezonedisplay_key.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/containmentactions_middlebutton.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/maintain_existing_desktop_icon_sizes.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/systemloadviewer_systemmonitor.js

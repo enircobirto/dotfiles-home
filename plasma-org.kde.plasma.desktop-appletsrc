@@ -304,7 +304,7 @@ ToolBoxButtonX=444
 ToolBoxButtonY=20
 
 [Containments][30][Wallpaper][org.kde.image][General]
-Image=file:///home/enirq/.config/wp/stock/138298151_3626969840752402_1805173385746664931_n.jpg
+Image=file:///home/enirq/.config/wp/catppuccin light/8c30486a-4129-4fb3-94dc-c7f1fad0ebf9.png
 SlidePaths=/home/enirq/.local/share/wallpapers,/usr/share/plasma/wallpapers,/usr/share/wallpapers
 
 [Containments][30][Wallpaper][org.kde.slideshow][General]

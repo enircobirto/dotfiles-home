@@ -3,25 +3,26 @@ palette = "catppuccin_mocha"
 format = """
 [░▒▓](mauve)\
 [  ](bg:mauve fg:crust)\
-[](bg:red fg:mauve)\
+[▓▒░](bg:red fg:mauve)\
 ${custom.directory}\
-[](fg:red bg:peach)\
+[▓▒░](fg:red bg:peach)\
 $git_branch\
 $git_status\
-[](fg:peach bg:green)\
+[▓▒░](fg:peach bg:green)\
 $nodejs\
 $rust\
 $golang\
 $php\
-[](fg:green bg:blue)\
+$python\
+[▓▒░](fg:green bg:blue)\
 $time\
-[ ](fg:blue)"""
+[▓▒░ ](fg:blue)"""
 
 [custom.directory]
 command = "echo $(prompt_pwd)"
 when = true
 symbol = " @ "
-style = "bold fg:base bg:red"
+style = "bold fg:crust bg:red"
 format = "[$symbol($output) ]($style)"
 
 [directory.substitutions]
@@ -33,37 +34,42 @@ format = "[$symbol($output) ]($style)"
 [git_branch]
 symbol = ""
 style = "bg:peach"
-format = '[[ $symbol $branch ](fg:base bg:peach)]($style)'
+format = '[[ $symbol $branch ](fg:crust bg:peach)]($style)'
 
 [git_status]
 style = "bg:peach"
-format = '[[($all_status$ahead_behind )](fg:base bg:peach)]($style)'
+format = '[[($all_status$ahead_behind )](fg:crust bg:peach)]($style)'
 
 [nodejs]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol ($version) ](fg:base bg:green)]($style)'
+format = '[[ $symbol ($version) ](fg:crust bg:green)]($style)'
 
 [rust]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol ($version) ](fg:base bg:green)]($style)'
+format = '[[ $symbol ($version) ](fg:crust bg:green)]($style)'
 
 [golang]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol ($version) ](fg:base bg:green)]($style)'
+format = '[[ $symbol ($version) ](fg:crust bg:green)]($style)'
 
 [php]
 symbol = ""
 style = "bg:green"
-format = '[[ $symbol ($version) ](fg:base bg:green)]($style)'
+format = '[[ $symbol ($version) ](fg:crust bg:green)]($style)'
+
+[python]
+symbol = ""
+style = "bg:green"
+format = '[[ $symbol ($version) (@$virtualenv)](fg:crust bg:green)]($style)'
 
 [time]
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:blue"
-format = '[[󰥔 $time ](fg:base bg:blue)]($style)'
+format = '[[󰥔 $time ](fg:crust bg:blue)]($style)'
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"

@@ -62,7 +62,7 @@ thickness=32
 [PlasmaViews][Panel 150]
 alignment=1
 floating=0
-panelVisibility=2
+panelVisibility=1
 
 [PlasmaViews][Panel 150][Defaults]
 minLength=210

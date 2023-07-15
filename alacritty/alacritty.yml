@@ -1,0 +1,57 @@
+window:
+  opacity: 0.8 
+  padding:
+    x: 15
+    'y': 15
+  dimensions:
+    columns: 120
+    lines: 40
+  decorations: full
+scrolling:
+  history: 100000
+font:
+  normal:
+    family: Jetbrains Mono
+    style: Regular
+  bold:
+    family: Jetbrains Mono
+    style: Bold
+  italic:
+    family: Jetbrains Mono
+    style: Italic
+  bold_italic:
+    family: Jetbrains Mono
+    style: Bold Italic
+  size: 8.5
+selection:
+  save_to_clipboard: true
+shell:
+  program: /usr/bin/fish
+colors:
+  # Default colors
+  primary:
+    background: '0x300f3e'
+    foreground: '0xe4c0e4'
+
+  # Normal colors
+  normal:
+    black:   '0x283742'
+    red:     '0xd32f54'
+    green:   '0x28842f'
+    yellow:  '0xdc844a'
+    blue:    '0x4836cb'
+    magenta: '0x9018b3'
+    cyan:    '0x1d7b75'
+    white:   '0xa68c97'
+
+  # Bright colors
+  bright:
+    black:   '0x7d7a68'
+    red:     '0xe34b6d'
+    green:   '0x4ba251'
+    yellow:  '0xe5a072'
+    blue:    '0x7161ed'
+    magenta: '0xa52dc7'
+    cyan:    '0x468e88'
+    white:   '0xfcecfe'
+

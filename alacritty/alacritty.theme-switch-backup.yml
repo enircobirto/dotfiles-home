@@ -1,0 +1,57 @@
+window:
+  opacity: 0.8
+  padding:
+    x: 15
+    'y': 15
+  dimensions:
+    columns: 120
+    lines: 40
+  decorations: full
+scrolling:
+  history: 100000
+font:
+  normal:
+    family: Iosevka Curly
+    style: Regular
+  bold:
+    family: Jetbrains Mono
+    style: Bold
+  italic:
+    family: Iosevka
+    style: Italic
+  bold_italic:
+    family: iosevka
+    style: Bold Italic
+  size: 8.5
+selection:
+  save_to_clipboard: true
+shell:
+  program: /usr/bin/fish
+colors:
+  name: Isotope (dark)
+  author: Chris Kempson
+  primary:
+    background: "#000000"
+    foreground: "#d0d0d0"
+  cursor:
+    text: "#000000"
+    cursor: "#d0d0d0"
+  normal:
+    black: "#000000"
+    red: "#ff0000"
+    green: "#33ff00"
+    yellow: "#ff0099"
+    blue: "#0066ff"
+    magenta: "#cc00ff"
+    cyan: "#00ffff"
+    white: "#d0d0d0"
+  bright:
+    black: "#808080"
+    red: "#ff0000"
+    green: "#33ff00"
+    yellow: "#ff0099"
+    blue: "#0066ff"
+    magenta: "#cc00ff"
+    cyan: "#00ffff"
+    white: "#ffffff"
+theme: Isotope.dark

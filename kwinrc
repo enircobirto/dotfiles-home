@@ -61,7 +61,7 @@ MouseTracking=2
 ZoomFactor=1.05
 
 [Effect-blur]
-BlurStrength=11
+BlurStrength=8
 NoiseStrength=14
 
 [Effect-diminactive]

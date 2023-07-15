@@ -16,7 +16,10 @@ $php\
 $python\
 [▓▒░](fg:green bg:blue)\
 $time\
-[▓▒░ ](fg:blue)"""
+[▓▒░ ](fg:blue)
+[░▒▓](surface1)\
+[  ](bg:surface1 fg:pink)\
+[▓▒░](fg:surface1) """
 
 [custom.directory]
 command = "echo $(prompt_pwd)"

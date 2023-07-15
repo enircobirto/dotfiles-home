@@ -1,0 +1,88 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum,kwinrules.upd:use-virtual-desktop-ids
+
+[1]
+Description=Application settings for alacritty
+clientmachine=localhost
+noborder=true
+opacityactive=100
+opacityinactive=90
+opacityinactiverule=2
+title=Alacritty
+wmclass=alacritty
+wmclassmatch=1
+
+[2]
+Description=Window settings for alacritty
+clientmachine=localhost
+noborder=true
+noborderrule=3
+title=Alacritty
+titlematch=1
+types=1
+wmclass=alacritty
+wmclassmatch=1
+
+[39595509-403f-4c79-8eb7-12e8cd97a0cd]
+Description=Application settings for alacritty
+clientmachine=localhost
+opacityinactive=88
+opacityinactiverule=2
+wmclass=alacritty
+wmclassmatch=1
+
+[41ac5444-ce35-4d27-8dee-9595a48fdc80]
+Description=Application settings for google-chrome
+clientmachine=localhost
+wmclass=google-chrome
+wmclassmatch=1
+
+[71669a15-80e0-46ec-a3cd-5a2492274a36]
+Description=Application settings for alacritty
+clientmachine=localhost
+noborder=true
+noborderrule=2
+wmclass=alacritty
+wmclassmatch=1
+
+[87591b86-d3ec-4f19-92fb-44e861089197]
+Description=Application settings for alacritty
+clientmachine=localhost
+noborder=true
+noborderrule=5
+wmclass=alacritty
+wmclassmatch=1
+
+[8bfa72e5-432e-4599-a8f3-d594122535dc]
+Description=Window settings for alacritty
+clientmachine=localhost
+noborder=true
+noborderrule=3
+title=Alacritty
+titlematch=1
+types=1
+wmclass=alacritty
+wmclassmatch=1
+
+[General]
+count=2
+rules=1,2
+
+[dd150bf3-2b0a-48e4-87bb-6d936556aa6c]
+Description=Window settings for alacritty
+clientmachine=localhost
+opacityinactive=90
+opacityinactiverule=2
+title=~
+titlematch=1
+types=1
+wmclass=alacritty
+wmclassmatch=1
+
+[ebafe34e-4b02-4183-825a-8561c87e5516]
+Description=Application settings for alacritty
+clientmachine=localhost
+noborder=true
+noborderrule=5
+wmclass=alacritty
+wmclassmatch=1

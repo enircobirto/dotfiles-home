@@ -244,7 +244,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][152][Applets][162][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 
 [Containments][152][Applets][163]
 immutability=1
@@ -304,7 +304,7 @@ ToolBoxButtonX=444
 ToolBoxButtonY=20
 
 [Containments][30][Wallpaper][org.kde.image][General]
-Image=/home/enirq/.config/wp/catppuccin light/c6e1eaf7-c962-43be-aee3-b4963e221fa3.png
+Image=/home/enirq/.config/wp/tokyo-night/shacks.png
 SlidePaths=/home/enirq/.local/share/wallpapers,/usr/share/plasma/wallpapers,/usr/share/wallpapers
 
 [Containments][30][Wallpaper][org.kde.slideshow][General]

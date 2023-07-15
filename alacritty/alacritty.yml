@@ -1,5 +1,5 @@
 window:
-  opacity: 0.8 
+  opacity: 0.8
   padding:
     x: 15
     'y': 15
@@ -30,28 +30,36 @@ shell:
 colors:
   # Default colors
   primary:
-    background: '0x300f3e'
-    foreground: '0xe4c0e4'
+    background: '0x1E1D2F'
+    foreground: '0xD9E0EE'
+
+  cursor:
+    text: '0x1E1D2F'
+    cursor: '0xF5E0DC'
 
   # Normal colors
   normal:
-    black:   '0x283742'
-    red:     '0xd32f54'
-    green:   '0x28842f'
-    yellow:  '0xdc844a'
-    blue:    '0x4836cb'
-    magenta: '0x9018b3'
-    cyan:    '0x1d7b75'
-    white:   '0xa68c97'
+    black: '0x6E6C7E'
+    red: '0xF28FAD'
+    green: '0xABE9B3'
+    yellow: '0xFAE3B0'
+    blue: '0x96CDFB'
+    magenta: '0xF5C2E7'
+    cyan: '0x89DCEB'
+    white: '0xD9E0EE'
 
   # Bright colors
   bright:
-    black:   '0x7d7a68'
-    red:     '0xe34b6d'
-    green:   '0x4ba251'
-    yellow:  '0xe5a072'
-    blue:    '0x7161ed'
-    magenta: '0xa52dc7'
-    cyan:    '0x468e88'
-    white:   '0xfcecfe'
+    black: '0x988BA2'
+    red: '0xF28FAD'
+    green: '0xABE9B3'
+    yellow: '0xFAE3B0'
+    blue: '0x96CDFB'
+    magenta: '0xF5C2E7'
+    cyan: '0x89DCEB'
+    white: '0xD9E0EE'
 
+  indexed_colors:
+    - { index: 16, color: '0xF8BD96' }
+    - { index: 17, color: '0xF5E0DC' }
+theme: Catppuccin
